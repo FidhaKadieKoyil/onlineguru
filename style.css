@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(205, 242, 236);
+}
+.cntctsbody {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 400px;
+    padding: 20px;
+    border: 1px solid #060606;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+h2 {
+    text-align: center;
+}
+label, input, textarea, button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+.cntctsbutton {
+    background-color: rgb(74, 82, 234);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #45a049;
+}
+
+#statusMessage {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+footer{
+    height: 80px;
+    width:100%;
+    color: white;
+    text-align: center;
+    
+}
+.button_panel	{
+	height: 125px;
+	padding: 50px 15px;
+	float: left;
+}
+.button_panel img {
+	width: 25px;
+	height: 25px;
+}
+
+
+
